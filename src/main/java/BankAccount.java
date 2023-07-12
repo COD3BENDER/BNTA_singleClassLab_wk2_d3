@@ -44,6 +44,7 @@ public class BankAccount {
     public void setDateOfBirth(String dateOfBirth) {
 
         this.dateOfBirth = LocalDate.parse(dateOfBirth, DateTimeFormatter.ofPattern("dd/MM/yyyy"));
+
     }
 
     public int getAccountNumber() {
